@@ -1,0 +1,5 @@
+app/mysql/serverInfo.js
+node_modules/
+ssl/
+app/validador/urlInfo.js
+public/img

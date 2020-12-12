@@ -1,0 +1,115 @@
+/*nav styles*/
+body{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-dark {
+    height: 40px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.7)
+}
+.navbar-dark .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.7);
+}
+.navbar-toggler {
+    color: rgba(255, 255, 255, 0.7);
+    padding: 0;
+    line-height: 0;
+    font-size: 1rem;
+    height: 30px;
+    border-color: white;
+    border: 4px solid white;
+}
+.navbar-toggler-icon {
+    height: 1.3em;
+
+
+}
+.navbar-nav {
+    background-color: rgb(52, 58, 64);
+}
+.nav-link {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+/*header part*/
+#content-wrapper {
+    height: 75px;
+    background-color: rgb(26, 50, 156);
+}
+.p-2 {
+    padding: .05rem !important;
+    margin-left: .5rem;
+}
+#container-left {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+}
+#container-right{
+    height: 100%;
+}
+#text-wrapper > div {
+    color: white;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+#__-wrapper {
+    height: 45px;
+    font-size: 2em;
+    color: white;
+}
+#gecor-wrapper {
+    font-size: 1,3em;
+}
+/*page title styles*/
+#page-title-wrapper{
+    
+    background-color: royalblue;
+}
+#page-title-wrapper > h2{
+    color: white;
+    align-content: center;
+    text-align: center;
+}
+
+
+@media  only screen and (max-width: 700px){
+    #page-title-wrapper > h2{
+        font-size: 1.4rem;
+    }
+}
+@media  only screen and (max-width: 500px){
+    #page-title-wrapper > h2{
+        font-size: 1.2rem;
+    }
+}
+@media  only screen and (max-width: 370px){
+    #__-wrapper{
+        height: 30px
+    }
+    #__-wrapper > h1{
+        font-size: 1.5rem;
+    }
+    #gecor-wrapper > h6{
+        font-size: 0.9rem;
+    }
+}
+@media  only screen and (max-width: 280px){
+    #__-wrapper{
+        height: 25px
+    }
+    #__-wrapper > h1{
+        font-size: 1.2rem;
+    }
+    #gecor-wrapper > h6{
+        font-size: 0.75rem;
+    }
+}
